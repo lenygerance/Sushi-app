@@ -1,0 +1,52 @@
+body {
+    color: black;
+    text-align: center;
+}
+
+.wrapper {
+
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    /*a modif pour l'effet de flou*/
+    -webkit-backdrop-filter: blur(7px);
+    /*a modif pour l'effet de flou*/
+    /*  grid-template-columns: repeat(9,1fr);
+    grid-auto-rows: 100%, auto;
+    grid-gap:10px */
+}
+
+.wrapper div {
+    /* border: 3px solid rgb(248, 0, 0); */
+    border-radius: 10px;
+}
+
+.grid {
+    margin: 10px;
+}
+
+.grid1 {
+    background-color: #fffbe3;
+}
+
+.grid2 {
+    background-color: #fff097;
+}
+
+.grid3 {
+    background-color: #fff4b0;
+}
+
+.grid4{
+    border-radius: 20px;
+}
+
+.grid5 {
+    background-color: #f5ffe3;
+}
+
+.grid6{
+    background-color: #f5ffe3;
+
+}

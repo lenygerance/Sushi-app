@@ -1,0 +1,4 @@
+<ul>
+    <li *ngFor="let uneLigne of panier">{{uneLigne.box.nom}} X {{uneLigne.quantite}}</li>
+    <h2 style="top: 0;">Total : {{ getTotalBoxPrice()+' €' }}</h2>
+</ul>
